@@ -25,3 +25,6 @@
 - 본인 이름의 브랜치를 만드셔서 PR을 올리시면됩니다. 
 - 제가 Approve 를 하면 Merge 해주세요.
 - 다른 친구들의 PR을 보고 서로 Comment를 남겨줘도 좋아요.
+
+## 과제
+<a href = "https://github.com/GSM-MSG/DevOps-Onboarding/tree/main/1%EC%A3%BC%EC%B0%A8">1주차</a> : DevOps를 알아보고 AWS의 기초를 알아보자.
