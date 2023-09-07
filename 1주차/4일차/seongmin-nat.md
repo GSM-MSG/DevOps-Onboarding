@@ -126,11 +126,18 @@ Host를 붙여 Bastion Host라고 명시해 놓아서 약간의 혼동이 왔었
 
 먼저 VPC를 생성해줍니다 이때 전 VPC등 항목을 체크하여 igw와 서브넷들을 한번에 생성했지만 이러지 않는게 좋은것같습니다.
 내가 뭘 생성했는지 잘 모름 이 다음엔 VPC등으로 같이 생성된 서브넷들의 이름을 바꿔줍니다.
-그 후 NAT 게이트웨이를 생성 해주는데 이때 private 서브넷에서 모든 패킷을 nat으로 보내라는 테이블을 추가해 주어야합니다.
-저는 이 항목을 보지 못하고 까먹었습니다..ㅠㅠ
-그 후 인터넷 게이트웨이를 설정해 주어야하는데 저는 이미 생성된 터라 그냥 이름만 바꾸어서 넣었습니다.
-암튼 그 다음엔 라우팅 테이블을 생성한 후 서브넷들을 privat과 public에 맞는데로 넣어주면 과제는 끝나게 됩니다.
+그 후 NAT 게이트웨이를 생성 해줍니다. 그 후 인터넷 게이트웨이를 설정해 주어야하는데 저는 이미 생성된 터라 그냥 이름만 바꾸어서 넣었습니다.
+그리고 public과 private를 연결할 라우팅 테이블을 생성 해줍니다.
+그 다음으론 이제 public과 private에 맞는 서브넷을 연결 시킨 후 라우팅 편집에 들어가 private에는 local과 함께 nat을 연결 시켜주고
+public에는 igw를 연결시켜주면 과제는 끝이나게 됩니다.
 
+![3](https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/7079a163-6157-44ce-8d61-7dc29a06968d)
+![1](https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/9fad28fa-5c93-4250-a3e6-aaad16dd45ce)
+![5](https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/6a087f3a-96d1-4aa7-9f4a-d304d5806229)
+![7](https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/e9397183-cbfc-492c-8799-bc22fc025cd6)
+![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/f9c3e325-5d39-407b-b414-7439fee0cc59)
+![11](https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/1accdc20-c676-4d94-9708-b65f37486fea)
+![12](https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/d7f0bdad-5184-4fcc-8e91-8b8e878cede1)
 
 
 
@@ -197,3 +204,6 @@ Host를 붙여 Bastion Host라고 명시해 놓아서 약간의 혼동이 왔었
 [https://dodomp0114.tistory.com/7](https://dodomp0114.tistory.com/7)
 
 [https://velog.io/@yyy96/Bastion](https://velog.io/@yyy96/Bastion)
+
+**실습**
+https://martinkim1954.tistory.com/entry/AWS-%EB%9D%BC%EC%9A%B0%ED%8C%85%ED%85%8C%EC%9D%B4%EB%B8%94Route-Table-%EC%83%9D%EC%84%B1-%EB%B0%8F-%EB%9D%BC%EC%9A%B0%ED%8C%85
