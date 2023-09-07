@@ -18,15 +18,29 @@
 6. 실습
 
   - VPC와 서브넷들을 생성해주세요. (어제와 같은 방식으로 만드시면 됩니다.)
-  
+    ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/d46e4d98-03f2-4105-9897-43b1cc7b2274)
+
   - NAT Gateway를 생성해주세요
+    ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/6e0b117a-4b12-4f36-b1fc-3d4821ba6fc8)
 
   - Internet Gateway를 생성해주세요
+    ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/195c5110-5aee-46da-afd1-61da5ef9718e)
 
   - public-routing-table, private-routing-table 을 생성해주세요.
+    ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/f4df65b1-c4a8-48be-9811-e54d3f73a10d)
 
   - 각각의 VPC 리소스들을 routing table에 연결시켜주세요.
+  - public
+    ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/d67ec44d-f116-4670-9dda-0ba37b21dc82)
+    ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/5b6efdfe-d48c-4377-a226-3b05f1728180)
 
+  - private
+    ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/1ff8939c-23dd-4b67-a6a3-761b9f836b7e)
+    ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/146a4e73-796c-4860-b7e4-0e3223d256e5)
+
+
+
+  
 
 참고 블로그 
 
