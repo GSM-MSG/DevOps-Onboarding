@@ -31,11 +31,11 @@
 
   - 각각의 VPC 리소스들을 routing table에 연결시켜주세요.
   - public
-    ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/d67ec44d-f116-4670-9dda-0ba37b21dc82)
+    ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/1ff8939c-23dd-4b67-a6a3-761b9f836b7e)
     ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/5b6efdfe-d48c-4377-a226-3b05f1728180)
 
   - private
-    ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/1ff8939c-23dd-4b67-a6a3-761b9f836b7e)
+    ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/d67ec44d-f116-4670-9dda-0ba37b21dc82)
     ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/146a4e73-796c-4860-b7e4-0e3223d256e5)
 
 
