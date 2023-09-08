@@ -60,6 +60,12 @@ routing table에 internat gateway 연결해주고 public subnet 할당해줍니�
 
 public ip로 접근할거니까 http도 내 ip로 열어줍니다.
 
+![](https://cdn.discordapp.com/attachments/954177766604030013/1149737406711484537/2023-09-09_01.05.55.png)
+ec2는 Amazon Linux2 AMI를 선택해줍니다.
+
+![](https://cdn.discordapp.com/attachments/954177766604030013/1149737182819532810/2023-09-09_01.04.58.png)
+Network Setting에서 vpc 생성했던 걸로 바꿔주어야합니다.
+
 ![](https://cdn.discordapp.com/attachments/954177766604030013/1149617488905117737/2023-09-08_17.09.22.png)
 
 `sudo yum httpd -y`
