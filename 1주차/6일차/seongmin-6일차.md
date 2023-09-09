@@ -70,7 +70,8 @@ Simple Storage Service**
 ![20](https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/99991afa-8475-4414-9dc6-dda3637ff9b9)
 
 이러면 이제 실습은 끝나게 됩니다.
-![13](https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/377848a7-eeae-40eb-a2f9-b7ad8604b7f4)
+![21](https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/ce0c9408-791c-4648-a823-0b9ed69c302f)
+
 
 ~~사진은 올릴게 없어서 보고 있던 아이네님 방송 화면을 캡쳐한것입니다 :)~~
 
