@@ -32,6 +32,19 @@
   - 버킷은 (자신의 이름)-msg-(과제 수행 날짜) 로 해주세요! (안될 경우엔 숫자나 영어를 임의로 붙혀주세요)
   - 실습인지라 아래의 사진과 같이 옵션을 해제해주세요!
 
+    ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/d7e39306-7dfb-41bc-b201-149ac7bf1dee)
+    버킷 이름을 설정해주고
+    ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/c9e33779-e7b6-4527-b4cf-bf481cc14678)
+    퍼블릭 액세스 차단을 해제해줍니다.
+    ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/dcff1cbc-744d-4b23-800a-852331a9c4fa)
+    생성된 버킷에 들어가서 업로드를 누른뒤
+    ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/c3d331d9-aed3-423f-8744-2c38fc4298c5)
+    원하는 파일을 선택해 업로드해줍니다.
+    ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/38451bd4-2d43-453a-af14-825f0dc47fd5)
+    권한을 추가해주고
+    ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/f6629fbf-7a19-4523-be5d-3b6c67d4aa9c)
+    url에서 접속해줍니다.
+
 
 3. 2번 과제처럼 S3에서 public 접근을 허용하게 되면 무슨 문제가 일어날 수 있을까? 그 문제를 해결하기 위해 public 접근을 막았을때 어떤식으로 s3에 접근할 수 있을까?
     
