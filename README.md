@@ -28,3 +28,4 @@
 
 ## 과제
 <a href = "https://github.com/GSM-MSG/DevOps-Onboarding/tree/main/1%EC%A3%BC%EC%B0%A8">1주차</a> : DevOps를 알아보고 AWS의 기초를 알아보자.
+<a href = "https://github.com/GSM-MSG/DevOps-Onboarding/tree/main/2%EC%A3%BC%EC%B0%A8">2주차</a> : Docker라는 고래를 사냥해보자.
