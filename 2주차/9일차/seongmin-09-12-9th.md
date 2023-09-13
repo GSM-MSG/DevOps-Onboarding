@@ -107,7 +107,7 @@ wsl --set-default-version 2
 
 ---
 
-ubuntu 220.4를 이용한 이미지 만들기
+ubuntu 22.04를 이용한 이미지 만들기
 
 먼저 run 기능을 사용해서 컨테이너를 만들어봅시다.
 
