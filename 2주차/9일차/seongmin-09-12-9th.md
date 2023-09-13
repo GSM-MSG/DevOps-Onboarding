@@ -127,7 +127,7 @@ docker commit test-server test-server-commit
 
 먼저 도커 파일을 작성해줍니다.
 ![25](https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/edb02113-8a8a-4b8f-bea9-69c538b9d4bf)
-여기서 FORM은 시작하는 이미지를 뜻합니다. 즉, 여기선 ubuntu:22,04에서 시작한다는거죠
+여기서 FORM은 시작하는 이미지를 뜻합니다. 즉, 여기선 ubuntu:22.04에서 시작한다는거죠
 RUN은 새로운 레이어를 만들고 실행하는 명령어인데 업데이트와 인스톨을 따로 실행하면 레이어가 계속 생성되면서 효율이 좋지 않으니 같이 실행하자!
 이때 && 를 넣으면 앞에 있는 명령어가 실행되고 뒤에 있는 명령어가 그 뒤에 실행된다.
 이때 -y를 넣은 이유는 도커 파일은 선택지가 생기는 창이 뜨면 실행되지 않는다 그래서 자동으로 y가 선택되도록 -y를 사용한다.
@@ -145,6 +145,7 @@ docker rm —force test-server; 을 통해 지워줍시다.
 ![26](https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/06c1cc49-c526-4abb-9e76-a61f44d98258)
 
 그 다음은 docker run -p 8888:8000 —name test-server test-server-build
+![31](https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/10ec9f8b-f7f4-446b-aa05-02c139276cfd)
 
 이러면 이제 실습은 끝나게 됩니다.
 
