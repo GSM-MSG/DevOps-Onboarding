@@ -156,8 +156,12 @@ Virtual Ethernet 인터페이스
 
 
 - **도커 네트워크 지정 후 컨테이너 실행**
-    ![38](https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/37a8bd00-5006-45ac-b3a4-2654580db9bc)
-    docker run -d --network=[NETWORK DRIVER] [CONTAINER NAME]
+  
+  ![38](https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/37a8bd00-5006-45ac-b3a4-2654580db9bc)
+
+
+
+          docker run -d --network=[NETWORK DRIVER] [CONTAINER NAME]
 
 # 참고한 자료들
 https://da2uns2.tistory.com/entry/Docker-Docker-Network-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0
