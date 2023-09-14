@@ -153,18 +153,18 @@ Virtual Ethernet 인터페이스
     
     docker network create —driver [네트워크 드라이버] [드라이버 이름]
     
-    기반이 되는 드라이버를 —driver로 지정하고 드라이버 이름을 저장하는 방식이다.
+   기반이 되는 드라이버를 —driver로 지정하고 드라이버 이름을 저장하고 생성하는 방식이다.
     ![36](https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/1860801a-94d1-41fa-a4b9-2050ac42660c)
-    ![38](https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/807d2ab2-cb7e-4ffe-848d-36f7866aea69)
+  ![39](https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/764f4160-f1a7-47c8-bd86-06f7e950ef53)
+
 
 
 - **도커 네트워크 지정 후 컨테이너 실행**
-  
-  ![38](https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/37a8bd00-5006-45ac-b3a4-2654580db9bc)
-
 
 
           docker run -d --network=[NETWORK DRIVER] [CONTAINER NAME]
+
+  ![38](https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/37a8bd00-5006-45ac-b3a4-2654580db9bc)
 
 # 참고한 자료들
 https://da2uns2.tistory.com/entry/Docker-Docker-Network-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0
