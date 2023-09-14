@@ -19,6 +19,7 @@ docker run -p 8888:8000 —name test-server test-server-build;
 컨테이너로 만든 가상의 포트가 **8000이고 이걸 실제 Host OS 포트의 8888포트와**
 
 **연결시켜 주는것**이라고 볼 수 있겠다.
+ <img width="1280" alt="34" src="https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/388ca138-260f-4396-9186-2f4e3cd53bf3">
 
 # 도커 네트워크의 구조
 
@@ -41,7 +42,9 @@ docker run -p 8888:8000 —name test-server test-server-build;
         이때 통신하는 네트워크는 가상의 네트워크이다.
         
     5. 위 과정을 다시 역순으로 반복하면 그게 도커 네트워크 구조다.
-    <img width="1280" alt="34" src="https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/388ca138-260f-4396-9186-2f4e3cd53bf3">
+       
+   ![images_ckstn0777_post_aa686e2f-098a-4c22-8921-f425802c7156_image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/13b2e4c0-1b5d-4434-ac02-ff60af32ee68)
+
 
 - **docker0**
     
