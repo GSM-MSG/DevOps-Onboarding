@@ -7,8 +7,9 @@
 1. docker-compose 란?
 - docker-compose 의 정의와 왜 사용하는지 등에 대해서 정리해주세요.
 2. docker-compose 파일 작성해보기
-- docker-compose 로 이미지 2개를 띄워주세요.
+- docker-compose 로 이미지 2개 이상을 띄워주세요.
 - 이미지의 종류는 상관없습니다. 자신이 만드셔도되고, 다른 사람들이 만든 이미지를 사용하셔도 좋아요.
-3. 자신이 작성한 docker-compose 와 관련된 명령어 실습하기
+3. 자신이 작성한 docker-compose 파일을 설명하고 docker-compose 파일이 어떤식으로 이루어져있는지 설명해주세요.
+4. 자신이 작성한 docker-compose 와 관련된 명령어 실습하기
 - docker-compose 와 관련된 명령어들을 실습해주세요.
 ```
