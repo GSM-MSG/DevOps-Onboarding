@@ -155,3 +155,23 @@ docker-compose down 으로 종료 (얘도!)
 
 그럼 아까 지정한 로컬 호스트 8080포트로 접속해보자!
 ![58](https://github.com/GSM-MSG/DevOps-Onboarding/assets/130664740/381f7925-2f9a-40cb-a0d4-174e857460da)
+
+
+# 참고한 자료들
+https://engineer-mole.tistory.com/221
+https://seosh817.tistory.com/387
+https://devzzi.tistory.com/76
+https://scarlett-dev.gitbook.io/all/docker/untitled
+https://tkdguq05.github.io/2021/08/11/yaml-break/
+https://news.wp-kr.com/wordpress-start-guide/
+https://cloud.google.com/mysql?hl=ko
+http://www.tcpschool.com/mysql/mysql_intro_intro
+https://www.youtube.com/watch?v=muOKnEIUA8Y
+https://www.youtube.com/watch?v=EK6iYRCIjYs
+https://gist.github.com/egoing/b62aa16573dd5c7c5da51fd429a5faa2
+https://jerryjerryjerry.tistory.com/95
+https://engineer-mole.tistory.com/223
+https://velog.io/@ssssujini99/Docker-docker-compose-%ED%8C%8C%EC%9D%BC-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EB%9D%84%EC%9A%B0%EA%B8%B0
+https://jyj98020.tistory.com/214
+https://nirsa.tistory.com/80
+https://docs.oofbird.me/docker/compose/startup-order.html
