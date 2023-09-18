@@ -59,7 +59,32 @@ k8s랑 다른게 없어서.. 컨테이너 쓰는 거 아닌이상 안 쓸 것 �
 ## docker-swarm 실습해보기
 
 ### 클러스터 없이 단일 노드 스웜 모드로 진행하기
-참고 : https://velog.io/@korjsh/%EB%8F%84%EC%BB%A4%EC%8A%A4%EC%9B%9C-%EA%B8%B0%EC%B4%88-%EB%B0%8F-%EC%98%88%EC%A0%9C
+참고 : https://velog.io/@korjsh/%EB%8F%84%EC%BB%A4%EC%8A%A4%EC%9B%9C-%EA%B8%B0%EC%B4%88-%EB%B0%8F-%EC%98%88%EC%A0%9C 
 
-### 실습
-참고 : https://skysoo1111.tistory.com/102
+예제들을 똑같이 따라했기 때문에 
+너무 길어질까봐 엄청 간단한 것만 적었어요!
+첨부하라면 추가하겠습니다 :)
+
+![](https://cdn.discordapp.com/attachments/954177766604030013/1153196466819580015/2023-09-18_14.10.55.png)
+`docker swarm init`
+싱글 노드로 사용하기 위함
+
+![](https://cdn.discordapp.com/attachments/954177766604030013/1153201591814475836/2023-09-18_14.31.18.png)
+`docker service ls`
+서비스중인것을 확인 할 수 있음
+
+`docker service create`
+간단하게 할거기 때문에 컴포즈 파일 없이 진행할거다
+
+![](https://cdn.discordapp.com/attachments/954177766604030013/1153205893123538965/2023-09-18_14.48.25.png)
+`docker service create --name registry --publish published=5000,target=5000 registry:2`
+
+### 의미
+* --name : 서비스의 이름을 지정한다. 지정하지 않을 경우 임의의 단어 조합으로 생성된다.
+* --replicas : 서비스를 구성할 태스크(컨테이너)의 수를 지정한다. 지정된 숫자 만큼의 태스크가 클러스터의 가용 노드에 배치된다.
+* --publish : 포트 포워딩을 통해 클러스터 외부에서 해당 서비스로 접근 가능한 포트 경로를 지정한다. 개방시킬 클러스터 노드의 포트 번호(published)와 이에 대응하는 서비스의 포트 번호(target)로 구분된다. 위의 예시는 --publish published=8080,target=80으로 풀어쓸 수도 있다. 만약 따로 지정하지 않는다면, 스웜 매니저(Swarm Manager)가 30000~32767 범위 안에서 임의의 포트를 할당시킨다.
+
+![](https://cdn.discordapp.com/attachments/954177766604030013/1153205213948289044/2023-09-18_14.45.42.png)
+`docker service ls`
+생겼다!
+
