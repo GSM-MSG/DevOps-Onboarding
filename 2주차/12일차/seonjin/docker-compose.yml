@@ -1,0 +1,27 @@
+version: "3"
+
+services:
+  apache:
+    image: php:7.3-apache
+    container_name: 'apache'
+    restart: 'always'
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes: 
+      - ./www:/var/www/html
+      - apache-logs:/var/log/apache2
+  mysql:
+    image: mariadb:10.4
+    container_name: 'mysql'
+    restart: 'always'
+    volumes: 
+      - mysql-data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: database
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+volumes:
+  apache-logs:
+  mysql-data:
