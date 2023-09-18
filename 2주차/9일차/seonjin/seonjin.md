@@ -4,7 +4,12 @@
 
 1. Docker 설치
 - 도커를 설치하고 설치하는 과정을 보여주세요. (Docker Desktop 이든 CLI 든 상관없지만 저는 둘 다 설치하였어요.)
-
+  ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/c24e9c6e-0f8d-48dd-89cd-a234260c3ea9)
+  ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/f19d857f-0101-4f40-b155-2165599ec48c)
+  기기버전에 맞춰서 설치
+  ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/584b32b1-1596-43a6-9593-9e7e96b21f23)
+  install 과정 진행후 재부팅
+  ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/5d0f2d10-bce7-463a-acb3-a40610d6dd16)
 
 2. Docker 명령어들을 학습해봅시다.
 - docker build, run, pull, stop 등등 도커에서 사용되는 명령어들을 학습해주세요.
