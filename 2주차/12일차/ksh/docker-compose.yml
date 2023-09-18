@@ -1,0 +1,23 @@
+version: '3'
+services:
+  app:
+    image: seolhee/gmt-backend-v2_app:latest
+    ports:
+      - 80:8080
+    depends_on:
+      - mysql
+    networks:
+      - backend
+  
+  mysql:
+    image: mysql:8
+    container_name: mysql
+    environment:
+      MYSQL_DATABASE: ${DB_SCHEMA}
+      MYSQL_ROOT_USER: ${DB_USER}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    networks:
+      - backend
+
+networks:
+  backend:
