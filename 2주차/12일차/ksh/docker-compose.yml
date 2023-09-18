@@ -6,7 +6,6 @@ services:
       - 80:8080
     depends_on:
       - mysql
-      - redis
     networks:
       - backend
   
