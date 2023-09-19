@@ -40,10 +40,11 @@ resource "aws_internet_gateway" "seolhee-igw" {
 resource "aws_eip" "seolhee-aws_eip" {
     vpc = true
 }
+
 #create nat
 resource "aws_nat_gateway" "seolhee-nat" {
     allocation_id = aws_eip.seolhee-aws_eip.id
-    subnet_id = aws_subnet.seolhee-public-subnet-2a
+    subnet_id = aws_subnet.seolhee-public-subnet-2a.id
   tags = {
     Name = "seolhee-nat"
   }
@@ -78,7 +79,7 @@ resource "aws_route" "seolhee-nat-as" {
 resource "aws_route" "seolhee-igw-as" {
   route_table_id = aws_route_table.seolhee-public-rtb.id
   destination_cidr_block = "0.0.0.0/0"
-  nat_gateway_id = aws_internet_gateway.seolhee-igw.id
+  gateway_id = aws_internet_gateway.seolhee-igw.id
 }
 
 #rtb에 각각 subnet 할당

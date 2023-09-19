@@ -24,5 +24,8 @@ Terrafrom
 
 ![](https://cdn.discordapp.com/attachments/954177766604030013/1153591606167994450/2023-09-19_16.21.04.png)
 `terraform init` 으로 git init처럼 알려준다 테라폼 파일 있어용~
-![]()
+![](https://cdn.discordapp.com/attachments/954177766604030013/1153635043202322503/2023-09-19_19.13.39.png)
+cd로 디렉토리 옮겨줘야해요~
+![](https://cdn.discordapp.com/attachments/954177766604030013/1153636252277555220/2023-09-19_19.18.29.png)
 `terraform apply` 소스 만든다!! -> yes를 쳐준다
+그러면 저렇게 돼요!!!
