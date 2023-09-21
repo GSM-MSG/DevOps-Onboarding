@@ -16,15 +16,33 @@
 4. 자신이 작성한 docker-compose 와 관련된 명령어 실습하기
 - docker-compose 와 관련된 명령어들을 실습해주세요.
     - docker-compose --version : 버전 확인
+      ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/76b45fc9-ddc4-4eb8-8f3d-6a6cb557501d)
+
     - docker-compose up : 컨테이너를 생성 및 실행 합니다.
     docker-compose up [옵션] [서비스명]
     -d	백그라운드 실행
     --no-deps	링크 서비스 실행하지 않음
     --build	이미지 빌드
     -t	타임아웃을 지정(기본 10초)
+    ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/00cf0865-3850-40db-a834-34b131bf2ec0)
+
     - docker-compose ps : 현재 동작중인 컨테이너들의 상태 확인
+      ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/894394fd-d332-448a-9788-7a27010a9d35)
+
     - docker-compose logs : 컨테이너들의 로그를 출력
+      ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/f8987d6d-2ce5-4508-98e0-2b9111f720ff)
+
     - docker-compose (start/stop/pause/unpause/restart) : 여러개의 서비스 또는 특정 서비스를 시작/정지/일시정지/재시작
+      ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/bcf441f2-fd68-4d0c-816b-e0853e32fa58)
+      ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/a16dd550-cecb-441f-8c1f-e592b2b8a7ee)
+
+
     - docker-compose rm : docker-compose로 생성한 컨테이너들을 일괄 삭제
+    - ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/ba83424a-36e1-4337-94bc-d77aa9a11e5b)
+
+      
     - docker-compose kill : 실행중인 컨테이너를 강제로 정지
+      ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/523730ec-162a-4ceb-a23b-e418ce4ef03c)
+
     - docker-compose down : 네트워크 정보, 볼륨, 컨테이너들을 일괄 정지 및 삭제
+      ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/4623372d-9311-4a25-b354-e656bc9b56d5)
