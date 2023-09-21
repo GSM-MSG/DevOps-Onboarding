@@ -10,7 +10,10 @@
     명령어 생성 : docker volume create 볼륨명
     컨테이너 실행하며 생성 : docker run –v <볼륨명>:<컨테이너 내 경로> <이미지> 명명볼륨
 
-4. 도커 로그
+   ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/c69752ce-83ad-4422-b531-e67103636385)
+
+
+5. 도커 로그
     컨테이너 로그 확인 : docker logs [옵션] [컨테이너 명]
     이 밖에도 다양한 옵션을 통해서 로그를 확인할수 있습니다.
     1. -f` 또는 `--follow`: 로그를 실시간으로 출력합니다. 컨테이너에서 발생하는 새로운 로그가 있을 때마다 화면에 출력됩니다.
@@ -19,3 +22,4 @@
     4. `-t` 또는 `--timestamps`: 로그 메시지에 타임스탬프를 추가하여 출력합니다.
     5. `-n` 또는 `--tail`: 로그의 마지막 n 줄만 출력합니다. n은 숫자입니다.
 
+![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/a5015559-6c34-4df3-81aa-3c59435294ae)
