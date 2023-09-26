@@ -20,6 +20,21 @@
     프로젝트를 하는 개발자들은 순수 개발 시간 이외에 DB 설정, 환경 설정, Deploy 작업과 같은 단순 작업에 시간을 소비하는데, 젠킨스에서 지원하는 웹 인터페이스를 통해 쉽게 수행할수 있습니다.
 
     - 간단한 젠킨스 사용방법(git pull)
+      ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/9ca0bf46-1eb0-4e9b-b0de-cf06c99ee302)
+      New item을 눌러 새 프로젝트를 생성해줍니다.
+      ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/d6b39c27-194e-465d-b350-c028391bfe1d)
+      pipeline을 선택해줍니다.
+      ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/2a6518de-76d9-4f83-baab-57b9c74f7890)
+      다른 설정은 놔두고 아래로 내려서
+      ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/5e1dab82-c654-4a95-bb42-dcc2b23b84b3)
+      Definition 아래에 있는 항목을 'Pipeline script from SCM'으로 바꿔줍니다.
+      그리고 SCM아래에 있는 칸을 Git으로 바꿔주고 Repository URL을 입력합니다.
+      ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/4a456990-02af-4d28-86cf-188f6dbd654c)
+      branch를 선택해주고 Script Path에 git repository의 Root에 있는 Jenkinsfile을 입력해줍니다
+      save로 프로젝트를 생성해주고 build now를 눌러줍니다.
+      ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/0bed7c1f-f2ac-47b4-96ce-c11e00bceed1)
+     완료된 화면을 볼수 있습니다.
+      ![image](https://github.com/GSM-MSG/DevOps-Onboarding/assets/103885741/0b0154ce-409e-4b38-869a-32fa6f093c2f)
 
 
 4. 이 주제를 다른 온보더분들도 같이 공부했으면, 알았으면 하는 이유
